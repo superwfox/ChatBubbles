@@ -58,7 +58,6 @@ public class ChatBubbleListener implements Listener {
             );
         }
 
-        System.out.println(entity.getPassengers().size());
         if (entity.getPassengers().isEmpty()) return;
         Entity en = entity.getPassengers().stream().findFirst().orElse(null);
         putOn(en);
