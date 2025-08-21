@@ -1,0 +1,4 @@
+name: ChatBubbles
+version: '1.0'
+main: sudark2.Sudark.chatBubbles.ChatBubbles
+api-version: '1.21'
